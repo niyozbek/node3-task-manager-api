@@ -65,7 +65,7 @@ userSchema.methods.toJSON = function() {
     const userObject = user.toObject()
 
     delete userObject.password
-    delete userObject._id
+        // delete userObject._id
     delete userObject.avatar
 
     return userObject
